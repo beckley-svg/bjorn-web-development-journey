@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bjorn's Web Development Journey</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #1f2937;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #d8dee8;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: #4b5563;
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: 36px auto 60px;
+    }
+
+    .intro {
+      background: #ffffff;
+      border: 1px solid #d8dee8;
+      border-radius: 10px;
+      padding: 22px;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #d8dee8;
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      color: #4b5563;
+      min-height: 50px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      background: #1f2937;
+      color: white;
+      padding: 8px 11px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+
+    a.secondary {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .gap {
+      background: #f0f2f5;
+      color: #6b7280;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bjorn's Web Development Journey</h1>
+    <p>
+      Grade 11 web development portfolio showing my progress from basic HTML
+      to responsive multi-page websites using CSS JavaScript Python and localStorage.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <h2>About this portfolio</h2>
+      <p>
+        The projects are arranged chronologically so that the development of my skills
+        can be seen over time. The original project files were lost when my SSD failed
+        so these versions were reconstructed from my progress spreadsheet and weekly records.
+      </p>
+      <p>
+        <strong>Tip:</strong> Use <em>Open project</em> to see a webpage running in the browser.
+        Use <em>View code</em> to inspect the files on GitHub. Python-only weeks can be viewed
+        as code but cannot run directly through GitHub Pages.
+      </p>
+    </section>
+
+    <section class="grid">
+
+      <article class="card">
+        <h2>Baseline</h2>
+        <p>Very basic HTML page with a heading paragraph and button.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/00-baseline/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/00-baseline">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 1</h2>
+        <p>First JavaScript buttons and simple user interaction.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week01/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week01">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 2</h2>
+        <p>Python syntax and simple if statements.</p>
+        <div class="buttons">
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week02">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 3</h2>
+        <p>Python decisions using if elif else and user input.</p>
+        <div class="buttons">
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week03">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 4</h2>
+        <p>Python for loops while loops and stopping conditions.</p>
+        <div class="buttons">
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week04">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 5</h2>
+        <p>Python functions parameters and return values.</p>
+        <div class="buttons">
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week05">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 6</h2>
+        <p>Semantic HTML using header nav main section and footer.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week06/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week06">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 7</h2>
+        <p>CSS box model margin padding borders and page width.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week07/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week07">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 8</h2>
+        <p>Flexbox cards and wrapping layouts.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week08/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week08">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 9</h2>
+        <p>JavaScript variables console output and click events.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week09/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week09">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 10</h2>
+        <p>JavaScript functions user input and changing page content.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week10/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week10">View code</a>
+        </div>
+      </article>
+
+      <article class="card gap">
+        <h2>Week 11</h2>
+        <p>No web development completed because of the school production of Annie.</p>
+      </article>
+
+      <article class="card">
+        <h2>Week 12</h2>
+        <p>Form input empty-field checking and clearing forms.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week12/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week12">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 13</h2>
+        <p>Five-question HTML CSS and JavaScript quiz.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week13/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week13">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 14</h2>
+        <p>JavaScript arrays loops and building page content.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week14/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week14">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 15</h2>
+        <p>Four-operation calculator with input checking.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week15/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week15">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 16</h2>
+        <p>Responsive CSS media queries and layouts for smaller screens.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week16/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week16">View code</a>
+        </div>
+      </article>
+
+      <article class="card gap">
+        <h2>Week 17</h2>
+        <p>No web development completed while preparing for the Germany school exchange.</p>
+      </article>
+
+      <article class="card gap">
+        <h2>Week 18</h2>
+        <p>No web development completed while on the Germany school exchange.</p>
+      </article>
+
+      <article class="card">
+        <h2>Week 19</h2>
+        <p>Saving and loading a user preference with localStorage.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week19/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week19">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 20</h2>
+        <p>To-do list with add remove complete and localStorage features.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week20/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week20">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 21</h2>
+        <p>Client-side form validation and error messages.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week21/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week21">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 22</h2>
+        <p>Debugging with the browser console and Developer Tools.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week22/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week22">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 23</h2>
+        <p>First working version of the final Study Hub multi-page site.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week23/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week23">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 24</h2>
+        <p>Responsive final site with a JavaScript study-tip feature.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week24/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week24">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 25</h2>
+        <p>Polished final site with a second interactive feature and localStorage.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week25/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week25">View code</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Week 26</h2>
+        <p>Final tested and organised version of the Study Hub project.</p>
+        <div class="buttons">
+          <a class="button" href="bjorn-web-development-journey/week26/">Open project</a>
+          <a class="button secondary" href="https://github.com/beckley-svg/bjorn-web-development-journey/tree/main/bjorn-web-development-journey/week26">View code</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    Grade 11 Web Development Learning Journey
+  </footer>
+
+</body>
+</html>
