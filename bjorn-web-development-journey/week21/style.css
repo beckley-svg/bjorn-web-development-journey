@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-card {
+    max-width: 450px;
+    margin: 50px auto;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #9d0000;
+}
+
+.success {
+    color: #006600;
+}

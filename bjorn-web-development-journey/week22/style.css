@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+}
+
+.box {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border: 1px solid #bbbbbb;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+}

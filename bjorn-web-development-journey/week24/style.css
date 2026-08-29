@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    padding: 30px 8%;
+    background: #eeeeee;
+}
+
+nav {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #222222;
+}
+
+main {
+    width: 84%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.card,
+.hero {
+    border: 1px solid #cccccc;
+    padding: 24px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 14px;
+}
+
+footer {
+    padding: 20px 8%;
+    background: #eeeeee;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .card,
+    .hero {
+        padding: 16px;
+    }
+}

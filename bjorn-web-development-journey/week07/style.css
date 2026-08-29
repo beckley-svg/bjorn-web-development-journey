@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #eeeeee;
+}
+
+.page {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.card {
+    background: white;
+    border: 2px solid #444444;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+}

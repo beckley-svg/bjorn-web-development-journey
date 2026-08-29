@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 1 JavaScript Buttons</title>
+</head>
+<body>
+    <h1>Learning JavaScript</h1>
+    <p id="message">Try one of the buttons below.</p>
+
+    <button onclick="askName()">Tell me your name</button>
+    <button onclick="askColour()">Favourite colour</button>
+
+    <script>
+        function askName() {
+            const name = prompt("What is your name?");
+            document.getElementById("message").textContent =
+                "Hello " + name + "!";
+        }
+
+        function askColour() {
+            const colour = prompt("What is your favourite colour?");
+            document.getElementById("message").textContent =
+                colour + " is a cool colour.";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #aaaaaa;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+}
